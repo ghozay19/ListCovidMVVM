@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Elevation   -->
+    <dimen name="no_elevation">0dp</dimen>
+
+    <!--    Body    -->
+    <dimen name="margin_start_end_body">14dp</dimen>
+    <dimen name="margin_top_bottom_body">10dp</dimen>
+    <dimen name="radius_body">15dp</dimen>
+
+    <!--    ScrollViewVertical    -->
+    <dimen name="hight_scrollView_vertical">0dp</dimen>
+    <dimen name="weight_scrollView_vertical">1</dimen>
+
+    <!--    LinearScrollVerticalBody    -->
+    <dimen name="padding_top_bottom_linear_scroll">3dp</dimen>
+    <dimen name="padding_start_end_linear_scroll">12dp</dimen>
+
+    <dimen name="margin_item">1dp</dimen>
+    <dimen name="padding_item_list">10dp</dimen>
+    <dimen name="radius_item">10dp</dimen>
+    <dimen name="margin_title_start_end">12dp</dimen>
+    <dimen name="margin_top_bottom_body_edit_text_login">10dp</dimen>
+
+    <!--    EditText    -->
+    <dimen name="padding_start_end_edit_text">12dp</dimen>
+    <dimen name="padding_top_bottom_edit_text">14dp</dimen>
+    <dimen name="text_size_edit_text">16sp</dimen>
+
+    <!--    BodyTextView-Body   -->
+    <dimen name="margin_top_bottom_tv_body">3dp</dimen>
+    <dimen name="radius_tv_body">10dp</dimen>
+
+
+    <!--    Activity Login  -->
+    <dimen name="margin_top_title_login">67dp</dimen>
+    <dimen name="text_size_title_login">20sp</dimen>
+    <dimen name="margin_top_text_after_title_login">50dp</dimen>
+    <dimen name="margin_bottom_text_after_title_login">30dp</dimen>
+    <dimen name="text_size_text_after_title_login">20sp</dimen>
+    <dimen name="margin_start_end_bottom_button_login">0dp</dimen>
+    <dimen name="padding_start_end_text_button_login">40dp</dimen>
+    <dimen name="padding_lupasandi_button">10dp</dimen>
+    <dimen name="text_size_lupa_sandi">15sp</dimen>
+    <dimen name="margin_edit_text_login">20dp</dimen>
+
+    <!--    BodyTextView-Body | Bottom   -->
+    <dimen name="margin_start_end_tvb_bottom">12dp</dimen>
+    <dimen name="margin_top_tvb_bottom">15dp</dimen>
+    <dimen name="margin_bottom_tvb_bottom">15dp</dimen>
+    <dimen name="radius_tvb_bottom">10dp</dimen>
+
+    <!--    BodyTextView-Text   -->
+    <dimen name="padding_start_end_tvBody_text">12dp</dimen>
+    <dimen name="padding_top_bottom_tvBody_text">14dp</dimen>
+    <dimen name="size_text_tvBody_text">16sp</dimen>
+
+
+</resources>

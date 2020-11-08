@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Covid Apps</string>
+    <string name="noData">Tidak ada data \nyang ditampilkan</string>
+    <string name="noInternet">Tidak ada \nkoneksi Internet</string>
+    <string name="gagalKoneksi">Tidak dapat terhubung ke Server</string>
+    <string name="gagalKesalahan">Terjadi Kesalahan</string>
+    <string name="sedang_memuat_data">Sedang Memuat Data</string>
+    <string name="masukan_nama_provinsi">Masukan Nama Provinsi</string>
+    <string name="cari">Cari</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="rizki">Rizki</string>
+    <string name="username_password_salah">Username atau Password Salah</string>
+
+
+</resources>

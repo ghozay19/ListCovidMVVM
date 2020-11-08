@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--    RecyclerView    -->
+    <style name="RecyclerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+<!--        <item name="android:layout_height">0dp</item>-->
+<!--        <item name="android:layout_weight">1</item>-->
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <!--    Item List   -->
+    <style name="ItemList" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">@dimen/radius_item</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="elevation">@dimen/no_elevation</item>
+        <item name="android:layout_margin">@dimen/padding_top_bottom_linear_scroll</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/no_elevation</item>
+        <item name="android:layout_marginBottom">@dimen/margin_item</item>
+    </style>
+
+    <!--    No Data     -->
+    <style name="NoData" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!--    Body    -->
+    <style name="BodyInterface" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">@dimen/margin_start_end_body</item>
+        <item name="android:layout_marginEnd">@dimen/margin_start_end_body</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_bottom_body</item>
+        <item name="android:layout_marginBottom">@dimen/margin_top_bottom_body</item>
+        <item name="cardCornerRadius">@dimen/radius_body</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="elevation">@dimen/no_elevation</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/no_elevation</item>
+    </style>
+
+    <style name="LinearItemListVertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/padding_item_list</item>
+    </style>
+
+    <style name="LinearItemListHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/padding_item_list</item>
+    </style>
+
+    <style name="LinearItemHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+<!--        <item name="android:padding">@dimen/padding_item_list</item>-->
+    </style>
+
+    <style name="LinearItemHorizontal.weight">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_weight">1</item>
+        <!--        <item name="android:padding">@dimen/padding_item_list</item>-->
+    </style>
+
+    <style name="BodyTextView" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_bottom_tv_body</item>
+        <item name="android:layout_marginBottom">@dimen/margin_top_bottom_tv_body</item>
+        <item name="cardCornerRadius">@dimen/radius_tv_body</item>
+        <item name="cardBackgroundColor">@color/colorGreenCoral</item>
+        <item name="elevation">@dimen/no_elevation</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/no_elevation</item>
+    </style>
+
+
+    <!--    EditText    -->
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingStart">@dimen/padding_start_end_edit_text</item>
+        <item name="android:paddingTop">@dimen/padding_top_bottom_edit_text</item>
+        <item name="android:paddingEnd">@dimen/padding_start_end_edit_text</item>
+        <item name="android:paddingBottom">@dimen/padding_top_bottom_edit_text</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textColorHint">@color/colorGray</item>
+        <item name="android:textSize">@dimen/text_size_edit_text</item>
+    </style>
+    <style name="LinearScrollVerticalBody">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">@dimen/padding_top_bottom_linear_scroll</item>
+        <item name="android:paddingBottom">@dimen/padding_top_bottom_linear_scroll</item>
+        <item name="android:paddingStart">@dimen/padding_start_end_linear_scroll</item>
+        <item name="android:paddingEnd">@dimen/padding_start_end_linear_scroll</item>
+    </style>
+    <!--    ScrollViewBodyVertical    -->
+    <style name="ScrollViewBodyVertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/hight_scrollView_vertical</item>
+        <item name="android:layout_weight">@dimen/weight_scrollView_vertical</item>
+    </style>
+
+    <style name="LinearScrollVerticalBody.EditText">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="BodyTextViewBottom" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_start_end_tvb_bottom</item>
+        <item name="android:layout_marginEnd">@dimen/margin_start_end_tvb_bottom</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_tvb_bottom</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_tvb_bottom</item>
+        <item name="cardCornerRadius">@dimen/radius_tvb_bottom</item>
+        <item name="cardBackgroundColor">@color/colorGreenCoral</item>
+        <item name="elevation">@dimen/no_elevation</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/no_elevation</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="BodyTvTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/padding_start_end_tvBody_text</item>
+        <item name="android:paddingEnd">@dimen/padding_start_end_tvBody_text</item>
+        <item name="android:paddingTop">@dimen/padding_top_bottom_tvBody_text</item>
+        <item name="android:paddingBottom">@dimen/padding_top_bottom_tvBody_text</item>
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textSize">@dimen/size_text_tvBody_text</item>
+    </style>
+
+    <style name="BodyTvTextStyle.Button">
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="BodyTextView.ButtonClickAble">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+    </style>
+
+</resources>
